@@ -13,13 +13,15 @@ import org.apache.logging.log4j.Logger;
 @Mod(LindMod.MOD_ID)
 public class LindMod
 {
+    public static final String MOD_ID = "lindmod";
     // Directly reference a log4j logger.
     private static final Logger LOGGER = LogManager.getLogger();
-    public static final String MOD_ID = "lindmod";
+
 
     public LindMod() {
         // Register the setup method for modloading
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
         eventBus.addListener(this::setup);
         // Register the enqueueIMC method for modloading
 
