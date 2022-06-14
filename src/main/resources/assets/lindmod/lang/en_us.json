@@ -1,5 +1,8 @@
 {
   "item.lindmod.titanium_ingot": "Titanium Ingot",
   "item.lindmod.titanium_nugget": "Titanium Nugget",
-  "item.lindmod.raw_titanium": "Raw Titanium"
+  "item.lindmod.raw_titanium": "Raw Titanium",
+  "block.lindmod.titanium_block": "Titanium Block",
+  "block.lindmod.titanium_ore": "Titanium Ore"
+
 }

@@ -1,5 +1,6 @@
 package com.lindgrei.lindmod;
 
+import com.lindgrei.lindmod.block.ModBlocks;
 import com.lindgrei.lindmod.item.ModItems;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
@@ -24,6 +25,8 @@ public class LindMod
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(eventBus);
+        ModBlocks.register(eventBus);
+
 
         eventBus.addListener(this::setup);
         // Register the enqueueIMC method for modloading
